@@ -1,5 +1,6 @@
 import React from "react";
+import Feed from "./components/Feed";
 
 export default function Home() {
-  return <p className="text-red-500">Thisis hello</p>;
+  return <Feed />;
 }
